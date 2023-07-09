@@ -1,0 +1,73 @@
+
+#appBg {
+    background-color: red;
+    height: 150x;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#appBg form {
+    height: 100%;
+    width: 120%;
+    background-color: rgb(0,0,0)
+}
+
+#appBg input[type=textfield] {
+    width: 88%;
+    height: 14%;
+    color: white;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 15px;
+    text-align: right;
+    font-size: 50px;
+    border: 0;
+    outline: none;
+
+}
+body {
+    background: #12c2e9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#appBg input[type=button], input[type=reset] {
+    width: 21.9%;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    color: black;
+    padding: 20px;
+    margin: 4px;
+    border:0;
+    border-radius: 100%;
+}
+
+#appBg .orange {
+    background-color: orange !important;
+    color: white !important;
+}
+#appBg .gray {
+    background-color: gray !important;
+    color: white !important;
+}
+
+#calculate {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    margin: 10% 20%
+}
+
+.titulo {
+    text-align: center !important;
+    margin: 20px 599px;
+    max-width: fit-content;
+    border-color: #f64f59;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}

@@ -1,0 +1,82 @@
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}  
+
+header img {
+  width: 100px;
+  position: fixed;
+  left: 10px;
+}
+
+
+.logo {
+  width: 100px;
+  margin: 5px;
+}
+
+.title1 {
+  position: fixed;
+  max-height: 250px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  border-style: groove;
+  border-width:  35px  ;
+  border-radius: 0px 50px;
+}
+
+.canal {
+  position: fixed;
+  top: 4%;
+  left: 250px;
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+  border-radius:5px;
+  border-style: groove;
+  background-color: red;
+  
+  
+}
+/* hecho por JoaquinN*/
+
+.myButton {
+  position: fixed;
+  top: 6%;
+  cursor: pointer;
+  left: 185px;
+  transform: translate(-50%, -50%);
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 6px;
+  border-style: groove;
+  background-color: red;
+}
+
+
+.calculator1{
+  margin: 100px 680px;;;
+  border-style: groove;
+  text-decoration: none;
+  border-radius: 50px 50px;
+  background-color: red;
+  font-size: 25px;
+}
+
+.calculator2 {
+  text-decoration: none;
+  color: white;
+
+}
